@@ -1,5 +1,5 @@
 .col-left {
-  width: 65%;
+  width: 60%;
   &_header{
     display: flex;
     align-items: flex-end;
@@ -46,15 +46,15 @@
       margin: 0;
     }
     .infocasa {
-      width: 160px;
+      width: 100px;
     }
     .construdeco {
-      width: 190px;
+      width: 130px;
     }
   }
 }
 .col-right{
-  width: 35%;
+  width: 40%;
   &_desktop {
     position: absolute;
     top: 0;
@@ -75,8 +75,13 @@
 }
 .element1 {
   max-width: 60px;
-  left: -90px;
-  top: 28px;
+  left: 2%;
+  top: 35%;
+}
+.element1a {
+  max-width: 40px;
+  left: -60px;
+  bottom: -30px;
 }
 .element2 {
   top: -50px;
@@ -85,8 +90,8 @@
 .element3a {
   display: block;
   max-width: 60px;
-  right: 585px;
-  top: 675px;
+  right: 20%;
+  top: 50%;
 }
 .element3b {
   display: none;
@@ -95,7 +100,4 @@
   right: 140px;
   bottom: 80px;
 }
-.element5 {
-  bottom: -35px;
-  left: -40px;
-}
+
