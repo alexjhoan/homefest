@@ -5,8 +5,24 @@
 body{
   opacity: 0;
   margin: 0;
-
+  background-image: url(../../assets/images/header-d.jpg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
 }
+body::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(29 29 29 / 80%);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 h1{font-size: 2.5rem; font-weight: 900px;}
 h3{font-size: 1.75rem;}
 h5{font-size: 1.25rem;}
@@ -29,8 +45,8 @@ img {
 }
 
 section {
-  position: relative;
-  padding-top: 10vh;
+  // position: relative;
+  padding-top: 8vh;
   padding-bottom: 5vh;
 }
 .btn{
@@ -64,6 +80,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  z-index: 1;
 }
 
 /*----------------------------Queries-------------------------------*/
