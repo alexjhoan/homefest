@@ -12,12 +12,10 @@
 }
 
 @media (min-width: 992px) {
-  body{
-  justify-content: flex-start;
-}
   .container {
     max-width: 960px;
-}
+    padding: 60px 15px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -29,5 +27,10 @@
 @media (min-width: 1400px) {
   .container {
     max-width: 1320px;
+  }
+  .col-left {
+    &_logo {
+      width: 130px;
+    }
   }
 }
