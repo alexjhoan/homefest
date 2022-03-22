@@ -4,6 +4,7 @@
     display: flex;
     align-items: flex-end;
     column-gap: 40px;
+    position: relative;
   }
   &_logo{
     width: 100px;
@@ -25,6 +26,7 @@
   &_info {
     margin-top: 30px;
     max-width: 680px;
+    position: relative;
   }
   &_buttons {
     margin-top: 60px;
@@ -39,6 +41,7 @@
     margin-top: 100px;
     padding-left: 35px;
     max-width: 680px;
+    position: relative;
     p{
       margin: 0;
     }
@@ -65,9 +68,30 @@
     display: none;
   }
 }
-
-
-
-
-
-
+.element{
+  position: absolute;
+  max-width: 30px;
+  width: 100%;
+}
+.element1 {
+  max-width: 60px;
+  left: -90px;
+  top: 28px;
+}
+.element2 {
+  top: -50px;
+  right: 150px;
+}
+.element3 {
+  max-width: 60px;
+  right: 585px;
+  top: 675px;
+}
+.element4a {
+  right: 140px;
+  bottom: 80px;
+}
+.element5 {
+  bottom: -35px;
+  left: -40px;
+}
