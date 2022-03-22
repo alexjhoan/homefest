@@ -82,10 +82,14 @@
   top: -50px;
   right: 150px;
 }
-.element3 {
+.element3a {
+  display: block;
   max-width: 60px;
   right: 585px;
   top: 675px;
+}
+.element3b {
+  display: none;
 }
 .element4a {
   right: 140px;

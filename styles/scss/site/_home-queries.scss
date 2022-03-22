@@ -2,6 +2,7 @@
   body {
     background: url(../../assets/images/header-m.jpg) no-repeat center;
     background-size: cover;
+    justify-content: space-between;
   }
   h1 {
     font-size: 1.5rem;
@@ -59,13 +60,18 @@
   .element2 {
     display: none;
   }
-  .element3 {
-    top: -350px;
-    right: 90px;
+  .element3a {
+    display: none;
+  }
+  .element3b {
+    display: block;
+    top: -40px;
+    right: 30px;
+    max-width: 50px;
   }
   .element4b {
-    left: 300px;
-    bottom: 660px;
+    left: 200px;
+    bottom: -100px;
   }
   .element5 {
     display: none;
