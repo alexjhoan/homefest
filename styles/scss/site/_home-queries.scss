@@ -44,14 +44,21 @@
       p{
         margin-bottom: 20px;
       }
-      .infocasa {
+      .infocasaA{
         width: 45%;
-        max-width: 160px;
+        .infocasa {
+          width: 100%;
+          max-width: 160px;
+        }
       }
-      .construdeco {
+      .construdecoA{
         width: 50%;
-        max-width: 190px;
+        .construdeco {
+          width: 100%;
+          max-width: 190px;
+        }
       }
+
     }
     &_logos {
       display: flex;
