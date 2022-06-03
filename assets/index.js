@@ -111,7 +111,8 @@ function sendForm(formId) {
     event.preventDefault()
     event.stopPropagation()
   }else{
-    fetch(`https://www.infocasas.com.uy/gracias/lanzamiento-home-fest?nombre=${data.nombre}&email=${data.email}&telefono=${data.telefono}&utm_source=web_cliente&utm_medium=home_fest`)
+    const url = formId == "contactForm" ? "https://www.infocasas.com.uy/gracias/lanzamiento-home-fest" : "https://www.infocasas.com.uy/proyectos/home-fest/gracias/amp"
+    fetch(`${url}?nombre=${data.nombre}&email=${data.email}&telefono=${data.telefono}&utm_source=web_cliente&utm_medium=home_fest`)
     .then((json) => {
       setTimeout(()=>{
         if (json.status === 200) {
