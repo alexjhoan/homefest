@@ -42,6 +42,10 @@ const swiperbanner = new Swiper(".swiper-banner", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   on: {
     slideChangeTransitionStart: function () {
       $('.banner_title').hide(0);
