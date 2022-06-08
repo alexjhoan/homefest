@@ -394,6 +394,11 @@
       padding: 0 25px;
     }
   }
+  .business{
+    .icons{
+      column-gap: 20px;
+    }
+  }
 }
 @media (max-width: 425px) {
   .areas .item_top{

@@ -32,11 +32,11 @@ header{
         color: $text;
       }
       .shopping{
-        background-color: $naranja;
+        background-color: #A2C232;
         color: $white;
-        border-radius: 5px;
+        border-radius: 9px;
         font-weight: 500;
-        padding: 4px 11px;
+        padding: 6px 16px;
         transition: all 0.5s ease;
         &:hover, &:active, &:focus{
           transform: scale(1.03);

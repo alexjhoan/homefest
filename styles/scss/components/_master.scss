@@ -33,10 +33,10 @@ section {
 }
 .btn{
   background-color: $btn;
-  border-radius: 12px;
+  border-radius: 9px;
   border: 2px solid transparent;
   padding: 8px 30px;
-  color: #1A1A1A;
+  color: $white;
   font-weight: 700;
   box-shadow: 0px 0px 9px #FFFFFF66;
 }
@@ -49,16 +49,13 @@ section {
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus,
 .btn.btn-secondary:hover, .btn.btn-secondary:active, .btn.btn-secondary:focus{
-  background-color: $btn-hover!important;
+  background-color: $btn !important;
   box-shadow: none!important;
+  color: #1A1A1A;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus{
   border-color: $white!important;
   transform: scale(1.03);
-}
-.btn.btn-secondary:hover, .btn.btn-secondary:active, .btn.btn-secondary:focus{
-  background-color: $btn-hover!important;
-  color: #1A1A1A;
 }
 p.h1{
   font-weight: 800;
