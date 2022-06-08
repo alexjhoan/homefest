@@ -13,7 +13,6 @@ $(window).on('load', function () {
       window.location = url
     }
   })
-
 });
 
 let offset

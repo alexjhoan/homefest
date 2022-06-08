@@ -23,7 +23,7 @@
   }
   .top{
     border-left: 2px solid #A2C232;
-    padding-left: 50px;
+    padding-left: 55px;
   }
   .organizan{
     display: flex;
@@ -84,6 +84,14 @@
 
 @media (max-width: 1199.98px) {
 
+}
+
+@media (min-width:992px) {
+  .footer {
+    .col-12 {
+      width: auto;
+    }
+  }
 }
 
 @media (max-width: 991.98px) {

@@ -109,22 +109,18 @@
     font-size: 24px;
   }
   &_text{
+    animation-duration: 1s;
     p.h2{
       font-family: Roboto;
       font-weight: 700;
       margin-bottom: 15px;
+      text-align: center;
     }
-    &_imgtext{
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      p.h4 {
+    p.h4 {
         display: flex;
-        margin-right: 38px;
         color: white;
         font-weight: 400;
         margin-bottom: 0;
-        -webkit-flex: 100%;
         img{
           width: 100%;
           margin-right: 10px;
@@ -136,6 +132,11 @@
           max-width: 19px;
         }
       }
+    &_imgtext{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 45px;
     }
   }
 }
