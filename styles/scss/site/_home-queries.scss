@@ -176,13 +176,8 @@
       height: 540px;
     }
     .swiper-button {
-      color: $white;
-      width: 30px;
-      height: 45px;
-      &:after {
-        font-size: 25px;
-      }
-    }
+      display: none;
+   }
 
   }
   .fbanner{
