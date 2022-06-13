@@ -119,7 +119,7 @@
   &_text{
     animation-duration: 1s;
     p.h2{
-      font-family: Roboto;
+      font-family: 'Roboto', sans-serif;
       font-weight: 700;
       margin-bottom: 15px;
       text-align: center;
@@ -381,7 +381,7 @@
   }
   p.h4{
     color: $white;
-    font-family:  NunitoSans;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     margin-bottom: 0;
     z-index: 1;
@@ -573,7 +573,7 @@
       background-color: $azul;
       display: inline;
       line-height: 1.5;
-      font-family: NunitoSans;
+      font-family: 'Nunito Sans', sans-serif;
       box-shadow: 7px 0 0 #0070e4, -7px 0 0 #0070e4;
     }
   }
