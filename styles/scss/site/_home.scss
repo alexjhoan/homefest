@@ -136,15 +136,15 @@
         .img1{
           max-width: 25px;
         }
-        .img2{
-          max-width: 19px;
-        }
       }
     &_imgtext{
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 45px;
+    }
+    .img2{
+      max-width: 167px;
     }
   }
 }
@@ -448,7 +448,7 @@
         margin-bottom: 0;
       }
       img{
-        margin-right: 25px;
+        margin-right: 28px;
       }
       .calendar{
         max-width: 37px;
@@ -461,6 +461,17 @@
       .ubicacion{
         max-width: 26px;
         width: 100%;
+      }
+    }
+   .antel_img{
+      .arena{
+        max-width: 167px;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .flex-right{
+        display: flex;
+        flex-direction: column;
       }
     }
     &_line{
