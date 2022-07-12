@@ -119,9 +119,6 @@
       top: 80px;
       height: auto;
     }
-    .title {
-      align-items: flex-start;
-    }
     p.h5{
       text-align: left;
     }
@@ -416,16 +413,8 @@
     .line-a{
       width: 145px;
     }
-
-    .title{
-      span.top-a{
-        font-size: 2rem;
-        &:after {
-          bottom: 4px;
-          height: 15px;
-        }
-      }
-
+    a.btn{
+      padding: 8px 15px;
     }
   }
   .informat{

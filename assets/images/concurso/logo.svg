@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="442.357" height="111.818" viewBox="0 0 442.357 111.818">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0079ff"/>
+      <stop offset="1" stop-color="#b8d900"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_4886" data-name="Grupo 4886" transform="translate(-817.318 -1746.701)">
+    <text id="microemprendedores" transform="translate(819.675 1851.519)" fill="#fff" font-size="39.917" font-family="GothamBlack, Gotham Black"><tspan x="0" y="0">microemprendedores</tspan></text>
+    <path id="Trazado_13822" data-name="Trazado 13822" d="M0,0H266.073V39.951H0Z" transform="translate(1085.748 1814.058) rotate(180)" fill="url(#linear-gradient)"/>
+    <text id="concurso" transform="translate(818.675 1805.058)" stroke="#fff" stroke-miterlimit="10" stroke-width="1.357" font-size="77.862" font-family="GothamBlack, Gotham Black" fill="none"><tspan x="0" y="0">concurso</tspan></text>
+  </g>
+</svg>
