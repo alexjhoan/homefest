@@ -111,6 +111,32 @@
       }
     }
   }
+  .concurso{
+    .container {
+      overflow-x: hidden;
+    }
+    &_img2{
+      top: 80px;
+      height: auto;
+    }
+    .title {
+      align-items: flex-start;
+    }
+    p.h5{
+      text-align: left;
+    }
+    .line-a{
+      margin-left: 0;
+    }
+    .line-b{
+      margin-left: 0;
+    }
+    .buttons {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 25px;
+    }
+  }
   .informat{
     &_left{
       &_line{
@@ -382,6 +408,26 @@
       }
     }
   }
+  .concurso{
+    &_img2{
+      top: 100px;
+      height:40%;
+    }
+    .line-a{
+      width: 145px;
+    }
+
+    .title{
+      span.top-a{
+        font-size: 2rem;
+        &:after {
+          bottom: 4px;
+          height: 15px;
+        }
+      }
+
+    }
+  }
   .informat{
     &_left{
       width: 70%;
@@ -406,6 +452,16 @@
 @media (max-width: 425px) {
   .areas .item_top{
     top: -4px;
+  }
+  .concurso{
+    .title{
+      .top-a{
+        font-size: 2rem;
+      }
+      .top-b{
+        font-size: 1.5rem;
+      }
+    }
   }
   .informat{
     &_left{

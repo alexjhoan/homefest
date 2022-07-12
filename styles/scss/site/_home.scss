@@ -425,6 +425,91 @@
   }
 }
 
+//----------------------------concurso----------------------------//
+.concurso{
+  background: linear-gradient(to right, #0079FF, #B8D900);
+  &_img1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100%;
+  }
+  &_img2 {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: 100%;
+  }
+  p{
+    color: $white;
+  }
+  p.h5{
+    text-align: center;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p.display-2{
+      line-height:0.6;
+    }
+    span.top-a {
+      -webkit-text-stroke: 2px white;
+      color: transparent;
+      position: relative;
+      z-index: 0;
+      &:after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(to right, #B8D900, #0079FF);
+        width: 85%;
+        bottom: 12px;
+        height: 35px;
+        z-index: -1;
+        left: 0;
+      }
+    }
+    span.top-b{
+      color: $white;
+    }
+  }
+  .btn{
+    border: 2px solid #ffffff;
+    border-radius: 9px;
+    color: $white;
+  }
+  .line-a{
+    background: transparent linear-gradient(90deg, #B8D900 0%, #0079FF 100%) 0% 0% no-repeat padding-box;
+    width: 264px;
+    height: 8px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .line-b{
+    border: 2px solid #FFFFFF;
+    width: 127px;
+    margin-top: 21.5px;
+    margin-bottom: 14.5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 23px;
+
+    .button-b{
+      background-color: #a2c23200;
+      img {
+        padding-left: 2px;
+      }
+    }
+  }
+}
 //----------------------------Informacion----------------------------//
 .informat{
   background-color: $rosado;
@@ -497,6 +582,7 @@
     height: 100%;
   }
 }
+
 
 //----------------------------Plano----------------------------//
 .plano{
