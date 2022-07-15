@@ -600,14 +600,17 @@
     margin-top: 12px;
   }
   &_right{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 30px;
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    column-gap: 20px;
     &_zona{
+      .text {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+      }
       p{
         margin-bottom: 12px;
-        display: flex;
       }
       img{
         max-width: 25px;

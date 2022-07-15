@@ -160,6 +160,7 @@
     }
     &_right{
       margin-top: 33px;
+      // grid-template-columns: 1fr;
       &_zona{
         img{
           margin-right: 10px;
@@ -351,6 +352,11 @@
       img{
         width: 100%;
       }
+    }
+  }
+  .plano{
+    &_right{
+      grid-template-columns: 1fr;
     }
   }
   .tickets{
