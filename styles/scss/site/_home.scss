@@ -601,8 +601,8 @@
   }
   &_right{
     display: grid;
-    grid-template-columns: 60% 1fr;
-    column-gap: 20px;
+    grid-template-columns: 55% 1fr;
+    column-gap: 15px;
     &_zona{
       .text {
         display: flex;
